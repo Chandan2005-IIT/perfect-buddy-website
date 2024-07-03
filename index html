@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfect Buddy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Perfect Buddy</h1>
+        </header>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I am Perfect Buddy, dedicated to helping students study with more confidence and motivation. My goal is to provide resources and support to avoid distractions and enhance your learning experience.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>If you have any questions or need further assistance, feel free to reach out to me at <a href="mailto:perfectbuddy@example.com">perfectbuddy@example.com</a>.</p>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Perfect Buddy. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
